@@ -39,6 +39,17 @@
   "jest": {
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 95,
+        "functions": 95,
+        "lines": 95,
+        "statements": 95
+      }
+    },
+    "coveragePathIgnorePatterns": [
+      "src/index.tsx"
     ]
   },
   "devDependencies": {
