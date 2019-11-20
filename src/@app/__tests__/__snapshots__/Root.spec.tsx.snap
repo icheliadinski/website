@@ -3,15 +3,12 @@
 exports[`[Root] renders successfully 1`] = `
 <BrowserRouter>
   <Switch>
+    <Route
+      component={[Function]}
+      path="/construct"
+    />
     <Redirect
       to="/construct"
-    />
-    <Route
-      exact={true}
-      path="/"
-    />
-    <Route
-      path="/construct"
     />
   </Switch>
 </BrowserRouter>
