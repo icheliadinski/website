@@ -1,12 +1,12 @@
 import React from 'react'
 import { shallow, ShallowWrapper } from 'enzyme'
-import { App } from '../App'
+import { Root } from '../Root'
 
-describe('[App]', () => {
+describe('[Root]', () => {
   let wrapper: ShallowWrapper
 
   beforeEach(() => {
-    wrapper = shallow(<App />)
+    wrapper = shallow(<Root />)
   })
 
   it('renders successfully', () => {

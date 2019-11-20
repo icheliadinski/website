@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Root] renders successfully 1`] = `
+<BrowserRouter>
+  <Switch>
+    <Redirect
+      to="/construct"
+    />
+    <Route
+      exact={true}
+      path="/"
+    />
+    <Route
+      path="/construct"
+    />
+  </Switch>
+</BrowserRouter>
+`;
