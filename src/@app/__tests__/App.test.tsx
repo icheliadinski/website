@@ -10,6 +10,6 @@ describe('[App]', () => {
   })
 
   it('renders successfully', () => {
-    wrapper.toMatchSnapshot()
+    expect(wrapper).toMatchSnapshot()
   })
 })
