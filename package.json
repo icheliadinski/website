@@ -19,7 +19,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "test:prod": "yarn test --watchAll=false"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -66,6 +67,8 @@
     "tslint-react-hooks": "2.2.1"
   },
   "husky": {
-    "pre-commit": "yarn test"
+    "hooks": {
+      "pre-commit": "yarn run test:prod"
+    }
   }
 }
