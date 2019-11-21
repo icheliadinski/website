@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "test:prod": "yarn test --watchAll=false",
+    "test:prod": "yarn test --watchAll=false --coverage",
     "lint": "stylelint 'src/**/*.scss'",
     "check": "yarn run lint && yarn run test:prod"
   },
@@ -53,7 +53,8 @@
       }
     },
     "coveragePathIgnorePatterns": [
-      "src/index.tsx"
+      "src/index.tsx",
+      "src/serviceWorker.ts"
     ]
   },
   "devDependencies": {
