@@ -4,7 +4,7 @@ import { UnderConstruction } from '@pages/under-construction'
 
 export const Root: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/construct" component={UnderConstruction} />
         <Redirect to="/construct" />
