@@ -2,7 +2,7 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://icheliadinski.github.io/",
+  "homepage": "https://icheliadinski.github.io/website/",
   "dependencies": {
     "@types/jest": "24.0.23",
     "@types/node": "12.12.11",
