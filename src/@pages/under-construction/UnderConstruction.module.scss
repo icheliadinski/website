@@ -1,0 +1,31 @@
+@import "@config/design/colors";
+@import "@config/design/media-queries";
+
+.card {
+  background-color: $warning-color;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 3rem;
+  margin: 250px auto 0;
+  max-width: 435px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @include medium-screen {
+    box-shadow: 2px 2px 5px black;
+    transform: rotate(-10deg);
+  }
+}
+
+.card:before,
+.card:after {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    transparent 0 20px,
+    black 20px 40px
+  );
+  content: "";
+  display: block;
+  height: 40px;
+  width: 100%;
+}
