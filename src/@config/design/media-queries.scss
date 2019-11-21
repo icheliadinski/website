@@ -1,0 +1,19 @@
+@import "./sizes";
+
+@mixin medium-screen {
+  @media (min-width: $medium) {
+    @content;
+  }
+}
+
+@mixin large-screen {
+  @media (min-width: $large) {
+    @content;
+  }
+}
+
+@mixin extra-large-screen {
+  @media (min-width: $x-large) {
+    @content;
+  }
+}
