@@ -6,8 +6,8 @@ export const Root: React.FC = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/construct" component={UnderConstruction} />
-        <Redirect to="/construct" />
+        <Route path="construct" component={UnderConstruction} />
+        <Redirect to="construct" />
       </Switch>
     </BrowserRouter>
   )

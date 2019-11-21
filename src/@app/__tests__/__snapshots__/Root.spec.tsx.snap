@@ -5,10 +5,10 @@ exports[`[Root] renders successfully 1`] = `
   <Switch>
     <Route
       component={[Function]}
-      path="/construct"
+      path="construct"
     />
     <Redirect
-      to="/construct"
+      to="construct"
     />
   </Switch>
 </BrowserRouter>
