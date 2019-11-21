@@ -13,5 +13,5 @@ deploy:
   provider: netlify
   skip_cleanup: true
   auth: $netlify_token
-  local_dir: build
+  dir: build
   edge: true
