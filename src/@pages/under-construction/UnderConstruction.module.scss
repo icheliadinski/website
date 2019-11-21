@@ -21,11 +21,11 @@
 .card:after {
   background-image: repeating-linear-gradient(
     -45deg,
-    transparent 0px 20px,
-    black 20px 40px
+    transparent -5px 15px,
+    black 15px 35px
   );
   content: "";
   display: block;
-  height: 40px;
+  height: 2.5rem;
   width: 100%;
 }

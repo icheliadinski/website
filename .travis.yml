@@ -9,9 +9,3 @@ script:
   - yarn build
 after_script:
   - COVERALLS_REPO_TOKEN=$coveralls_repo_token yarn run coveralls
-deploy:
-  provider: netlify
-  skip_cleanup: true
-  auth: $netlify_token
-  dir: build
-  edge: true
