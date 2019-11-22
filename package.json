@@ -27,7 +27,7 @@
     "check": "yarn run lint && yarn run test:prod",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
     "storybook": "start-storybook",
-    "build-storybook": "build-storybook -c .storybook -o build/storybook"
+    "build:storybook": "build-storybook -c .storybook -o build/storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
