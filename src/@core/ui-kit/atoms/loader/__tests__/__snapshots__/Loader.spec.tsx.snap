@@ -2,14 +2,6 @@
 
 exports[`[Loader] renders successfully 1`] = `
 <div
-  className="loader centered"
->
-  Loading
-</div>
-`;
-
-exports[`[Loader] when is not centered renders successfully 1`] = `
-<div
   className="loader"
 >
   Loading
@@ -18,7 +10,7 @@ exports[`[Loader] when is not centered renders successfully 1`] = `
 
 exports[`[Loader] when label set renders successfully 1`] = `
 <div
-  className="loader centered"
+  className="loader"
 >
   Loading
 </div>

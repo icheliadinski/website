@@ -1,6 +1,11 @@
 {
   "defaultSeverity": "error",
-  "extends": ["tslint:latest", "tslint-react", "tslint-react-hooks"],
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-react-hooks",
+    "tslint-react-a11y"
+  ],
   "linterOptions": {
     "exclude": ["src/**/*.stories.tsx"]
   },
@@ -39,6 +44,7 @@
     "prettier": true,
     "semicolon": {
       "options": "never"
-    }
+    },
+    "react-a11y-lang": true
   }
 }

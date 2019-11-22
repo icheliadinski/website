@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withOverlay renders successfully 1`] = `
+<div
+  className="overlay centered"
+>
+  <Component />
+</div>
+`;
+
+exports[`withOverlay when not centered renders successfully 1`] = `
+<div
+  className="overlay"
+>
+  <Component />
+</div>
+`;
