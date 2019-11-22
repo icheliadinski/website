@@ -2,7 +2,7 @@
 @import "@config/design/media-queries";
 
 .card {
-  background-color: $warning-color;
+  background-color: var(--orange-color);
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 3rem;
