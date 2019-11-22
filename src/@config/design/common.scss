@@ -1,7 +1,10 @@
 @import "./colors";
+@import "./fonts";
 
 :root {
-  --dark: #{$dark-color};
-  --orange: #{$orange-color};
-  --white: #{$white-color};
+  --c-dark: #{$dark-color};
+  --c-orange: #{$orange-color};
+  --c-white: #{$white-color};
+  --c-primary: #{$primary-color};
+  --font-primary: #{$roboto};
 }

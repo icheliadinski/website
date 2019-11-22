@@ -4,7 +4,7 @@ $_bar-size: 1rem;
 
 .loader {
   align-items: center;
-  color: var(--white);
+  color: var(--c-white);
   display: flex;
   font-size: 1.2rem;
   height: $_height;
@@ -19,7 +19,7 @@ $_bar-size: 1rem;
   &::before,
   &::after {
     animation: load 0.7s infinite alternate ease-in-out;
-    background: var(--white);
+    background: var(--c-white);
     content: "";
     display: block;
     height: $_bar-size;
