@@ -1,13 +1,16 @@
-$_width: 250px;
-$_height: 60px;
-$_bar-size: 15px;
+$_width: 15.5rem;
+$_height: 4rem;
+$_bar-size: 1rem;
 
 .loader {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  font-size: 1.2rem;
   height: $_height;
+  justify-content: center;
   left: 50%;
-  line-height: $_height;
   position: absolute;
-  text-align: center;
   text-transform: lowercase;
   top: 50%;
   transform: translate(-50%, -50%);
