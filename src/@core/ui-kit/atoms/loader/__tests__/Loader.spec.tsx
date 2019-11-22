@@ -22,4 +22,14 @@ describe('[Loader]', () => {
       expect(wrapper).toMatchSnapshot()
     })
   })
+
+  describe('when is not centered', () => {
+    beforeEach(() => {
+      wrapper.setProps({ isCentered: false })
+    })
+
+    it('renders successfully', () => {
+      expect(wrapper).toMatchSnapshot()
+    })
+  })
 })
