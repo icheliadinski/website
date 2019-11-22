@@ -1,16 +1,20 @@
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom'
-import { UnderConstruction } from '@pages/under-construction'
-import { Home } from '@pages/home'
+import { Loader } from '@core/ui-kit'
+
+const LazyUnderConstruct = lazy(() => import('@pages/under-construction'))
+const LazyHome = lazy(() => import('@pages/home'))
 
 export const Root: React.FC = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Switch>
-        <Route path="/construct" component={UnderConstruction} />
-        <Route path="/home" component={Home} />
-        <Redirect to="/construct" />
-      </Switch>
+      <Suspense fallback={<Loader />}>
+        <Switch>
+          <Route path="/construct" component={LazyUnderConstruct} />
+          <Route path="/home" component={LazyHome} />
+          <Redirect to="/construct" />
+        </Switch>
+      </Suspense>
     </BrowserRouter>
   )
 }
