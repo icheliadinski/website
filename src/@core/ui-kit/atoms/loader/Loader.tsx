@@ -1,10 +1,18 @@
 import React from 'react'
+import classNames from 'classnames'
 import styles from './Loader.module.scss'
 
 interface Props {
-  label?: string
+  children?: string
+  isCentered?: boolean
 }
 
-export const Loader: React.FC<Props> = ({ label = 'Loading' }) => {
-  return <div className={styles.loader}>{label}</div>
+export const Loader: React.FC<Props> = ({
+  children = 'Loading',
+  isCentered = true,
+}) => {
+  const classes = classNames(styles.loader, {
+    [styles.centered]: isCentered,
+  })
+  return <div className={classes}>{children}</div>
 }
