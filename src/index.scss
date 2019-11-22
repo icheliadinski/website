@@ -1,7 +1,7 @@
 @import "@config/design/common";
 
 body {
-  background: var(--dark);
-  font-family: sans-serif;
+  background: var(--c-dark);
+  font-family: var(--font-primary), sans-serif;
   margin: 0;
 }
