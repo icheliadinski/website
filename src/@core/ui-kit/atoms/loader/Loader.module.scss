@@ -9,10 +9,7 @@ $_bar-size: 1rem;
   font-size: 1.2rem;
   height: $_height;
   justify-content: center;
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   width: $_width;
 
   &::before,
