@@ -1,1 +1,1 @@
-export { UnderConstruction } from './UnderConstruction'
+export { UnderConstruction as default } from './UnderConstruction'
