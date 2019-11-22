@@ -25,7 +25,8 @@
     "test:prod": "yarn test --watchAll=false --coverage",
     "lint": "stylelint 'src/**/*.scss'",
     "check": "yarn run lint && yarn run test:prod",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "storybook": "start-storybook"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -54,13 +55,17 @@
         "statements": 95
       }
     },
-    "coveragePathIgnorePatterns": [
-      "src/index.tsx",
-      "src/serviceWorker.ts",
-      "src/@app/Root.tsx"
+    "collectCoverageFrom": [
+      "!src/index.tsx",
+      "!src/serviceWorker.ts",
+      "!src/@app/Root.tsx",
+      "src/**/*.{ts,tsx}",
+      "!src/**/*.stories.{ts,tsx}"
     ]
   },
   "devDependencies": {
+    "@storybook/react": "5.2.6",
+    "@storybook/theming": "5.2.6",
     "@types/enzyme": "3.10.3",
     "@types/enzyme-adapter-react-16": "1.0.5",
     "coveralls": "3.0.8",
