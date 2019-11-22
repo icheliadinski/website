@@ -1,0 +1,51 @@
+$_width: 250px;
+$_height: 60px;
+$_bar-size: 15px;
+
+.loader {
+  height: $_height;
+  left: 50%;
+  line-height: $_height;
+  position: absolute;
+  text-align: center;
+  text-transform: lowercase;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: $_width;
+
+  &::before,
+  &::after {
+    animation: load 0.7s infinite alternate ease-in-out;
+    background: var(--white);
+    content: "";
+    display: block;
+    height: $_bar-size;
+    position: absolute;
+    width: $_bar-size;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: 0;
+  }
+}
+
+@keyframes load {
+  0% {
+    height: $_bar-size * 2;
+    left: 0;
+    width: $_bar-size;
+  }
+  50% {
+    height: 8px;
+    width: 40px;
+  }
+  100% {
+    height: $_bar-size * 2;
+    left: $_width - $_bar-size;
+    width: $_bar-size;
+  }
+}

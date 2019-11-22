@@ -9,6 +9,10 @@ exports[`[Root] renders successfully 1`] = `
       component={[Function]}
       path="/construct"
     />
+    <Route
+      component={[Function]}
+      path="/home"
+    />
     <Redirect
       to="/construct"
     />
