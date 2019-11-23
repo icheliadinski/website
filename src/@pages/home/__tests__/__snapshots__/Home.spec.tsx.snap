@@ -3,6 +3,8 @@
 exports[`[Home] renders successfully 1`] = `
 <main>
   <LeftMenu
+    activeItem={null}
+    onItemClick={[Function]}
     profileIcons={
       Array [
         "user",
