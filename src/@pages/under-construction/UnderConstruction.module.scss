@@ -5,10 +5,10 @@
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 3rem;
-  margin: 15rem auto 0;
   max-width: 27rem;
   text-align: center;
   text-transform: uppercase;
+  width: 27rem;
 
   @include medium-screen {
     box-shadow: 2px 2px 5px black;
