@@ -62,10 +62,15 @@ $_menu-size: 3.5rem;
   font-size: 1.5rem;
   height: 3.5rem;
   justify-content: center;
+  transition: transform 0.2s ease;
 
   &:hover,
   &.active {
     color: var(--c-primary);
+  }
+
+  &.active {
+    transform: scale(1.2);
   }
 }
 

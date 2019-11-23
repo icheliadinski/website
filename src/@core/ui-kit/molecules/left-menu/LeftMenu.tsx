@@ -6,8 +6,8 @@ import styles from './LeftMenu.module.scss'
 
 export interface Props {
   profileIcons?: ICON_TYPES[]
-  activeItem?: ICON_TYPES | null
-  onItemClick?: (item: ICON_TYPES | null) => void
+  activeItem?: ICON_TYPES
+  onItemClick?: (item: ICON_TYPES) => void
 }
 
 export const LeftMenu: React.FC<Props> = ({
@@ -21,7 +21,11 @@ export const LeftMenu: React.FC<Props> = ({
   return (
     <aside className={styles.menu}>
       <span className={hamburgerClasses} role="button" />
-      <ProfileMenu icons={profileIcons} onItemClick={onItemClick} />
+      <ProfileMenu
+        icons={profileIcons}
+        onItemClick={onItemClick}
+        activeItem={activeItem}
+      />
       <span className={downloadClasses}>
         <Icon type={ICON_TYPES.DOWNLOAD_ICON} />
       </span>

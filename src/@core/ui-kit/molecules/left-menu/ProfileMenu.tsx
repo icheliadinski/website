@@ -7,7 +7,7 @@ import styles from './LeftMenu.module.scss'
 export interface Props {
   icons?: ICON_TYPES[]
   activeItem?: ICON_TYPES
-  onItemClick?: (itemType: ICON_TYPES | null) => void
+  onItemClick?: (itemType: ICON_TYPES) => void
 }
 
 export const ProfileMenu: React.FC<Props> = ({
