@@ -10,7 +10,11 @@ addParameters({
 });
 
 addDecorator(storyFn => (
-  <div style={{ display: "flex", justifyContent: "center" }}>{storyFn()}</div>
+  <div
+    style={{ display: "flex", justifyContent: "center", marginTop: "100px" }}
+  >
+    {storyFn()}
+  </div>
 ));
 
 configure(require.context("../src", true, /\.stories\.tsx?$/), module);
