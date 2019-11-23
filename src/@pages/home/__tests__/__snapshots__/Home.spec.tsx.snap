@@ -2,6 +2,16 @@
 
 exports[`[Home] renders successfully 1`] = `
 <main>
-  <Loader />
+  <LeftMenu
+    profileIcons={
+      Array [
+        "user",
+        "phone",
+        "edit",
+        "monitor",
+        "glasses",
+      ]
+    }
+  />
 </main>
 `;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[LeftMenu] renders successfully 1`] = `
+<aside
+  className="menu"
+>
+  <span
+    className="hamburger item"
+    role="button"
+  />
+  <ProfileMenu
+    icons={Array []}
+  />
+  <span
+    className="item download"
+  >
+    <Icon
+      type="download"
+    />
+  </span>
+</aside>
+`;

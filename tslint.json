@@ -6,9 +6,6 @@
     "tslint-react-hooks",
     "tslint-react-a11y"
   ],
-  "linterOptions": {
-    "exclude": ["src/**/*.stories.tsx"]
-  },
   "rules": {
     "quotemark": {
       "options": ["single", "jsx-double"]
