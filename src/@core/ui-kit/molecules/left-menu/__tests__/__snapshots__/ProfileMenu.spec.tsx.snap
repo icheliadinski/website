@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ProfileMenu] renders successfully 1`] = `
+<ul
+  className="profile"
+/>
+`;
+
+exports[`[ProfileMenu] when icons provided renders successfully 1`] = `
+<ul
+  className="profile"
+>
+  <li
+    className="item"
+    key="user"
+  >
+    <Icon
+      type="user"
+    />
+  </li>
+  <li
+    className="item"
+    key="phone"
+  >
+    <Icon
+      type="phone"
+    />
+  </li>
+</ul>
+`;

@@ -1,21 +1,21 @@
 import React from 'react'
 import { shallow, ShallowWrapper } from 'enzyme'
-import { Loader, Props } from '../Loader'
+import { ProfileMenu, Props } from '../ProfileMenu'
 
-describe('[Loader]', () => {
+describe('[ProfileMenu]', () => {
   let wrapper: ShallowWrapper<Props>
 
   beforeEach(() => {
-    wrapper = shallow(<Loader />)
+    wrapper = shallow(<ProfileMenu />)
   })
 
   it('renders successfully', () => {
     expect(wrapper).toMatchSnapshot()
   })
 
-  describe('when label set', () => {
+  describe('when icons provided', () => {
     beforeEach(() => {
-      wrapper = shallow(<Loader>New Label</Loader>)
+      wrapper.setProps({ icons: ['user', 'phone'] as any[] })
     })
 
     it('renders successfully', () => {

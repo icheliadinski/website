@@ -12,6 +12,6 @@ exports[`[Loader] when label set renders successfully 1`] = `
 <div
   className="loader"
 >
-  Loading
+  New Label
 </div>
 `;

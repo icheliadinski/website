@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Icon] renders successfully with download icon 1`] = `
+<span
+  className="icon icon-download"
+/>
+`;
+
+exports[`[Icon] renders successfully with edit icon 1`] = `
+<span
+  className="icon icon-edit"
+/>
+`;
+
+exports[`[Icon] renders successfully with glasses icon 1`] = `
+<span
+  className="icon icon-glasses"
+/>
+`;
+
+exports[`[Icon] renders successfully with monitor icon 1`] = `
+<span
+  className="icon icon-monitor"
+/>
+`;
+
+exports[`[Icon] renders successfully with phone icon 1`] = `
+<span
+  className="icon icon-phone"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 1`] = `
+<span
+  className="icon icon-user"
+/>
+`;

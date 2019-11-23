@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Loader.module.scss'
 
-interface Props {
+export interface Props {
   children?: string
 }
 

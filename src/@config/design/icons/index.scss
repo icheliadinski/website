@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/menu-icons.woff2") format("woff2");
+}
+
+.icon:before {
+  color: currentColor;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+}
+
+.icon-phone:before {
+  content: "\f100";
+}
+.icon-glasses:before {
+  content: "\f101";
+}
+.icon-user:before {
+  content: "\f102";
+}
+.icon-monitor:before {
+  content: "\f103";
+}
+.icon-edit:before {
+  content: "\f104";
+}
+.icon-download:before {
+  content: "\f105";
+}
