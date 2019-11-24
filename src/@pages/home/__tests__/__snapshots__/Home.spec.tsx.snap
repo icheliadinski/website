@@ -3,15 +3,28 @@
 exports[`[Home] renders successfully 1`] = `
 <main>
   <LeftMenu
-    activeItem="user"
-    onItemClick={[Function]}
-    profileIcons={
+    navigationItems={
       Array [
-        "user",
-        "phone",
-        "edit",
-        "monitor",
-        "glasses",
+        Object {
+          "icon": "user",
+          "path": "",
+        },
+        Object {
+          "icon": "phone",
+          "path": "contact",
+        },
+        Object {
+          "icon": "edit",
+          "path": "blog",
+        },
+        Object {
+          "icon": "monitor",
+          "path": "works",
+        },
+        Object {
+          "icon": "glasses",
+          "path": "skills",
+        },
       ]
     }
   />

@@ -15,17 +15,4 @@ describe('[Home]', () => {
   it('renders successfully', () => {
     expect(wrapper).toMatchSnapshot()
   })
-
-  describe('when left menu item clicked with user', () => {
-    beforeEach(() => {
-      wrapper.find('LeftMenu').prop<OnLeftItemClickFn>('onItemClick')(
-        ICON_TYPES.USER_ICON,
-      )
-    })
-
-    it('sets active item to user', () => {
-      const actual = wrapper.find('LeftMenu').prop<ICON_TYPES>('activeItem')
-      expect(actual).toEqual(ICON_TYPES.USER_ICON)
-    })
-  })
 })
