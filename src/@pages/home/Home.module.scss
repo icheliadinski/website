@@ -1,0 +1,8 @@
+.about {
+  font-style: italic;
+  text-align: center;
+
+  &:nth-child(even) {
+    color: var(--c-primary);
+  }
+}

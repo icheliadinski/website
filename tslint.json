@@ -21,7 +21,7 @@
     "no-default-export": true,
     "max-line-length": {
       "options": {
-        "limit": 100
+        "limit": 150
       }
     },
     "indent": {

@@ -15,5 +15,8 @@ exports[`[Home] renders successfully 1`] = `
       ]
     }
   />
+  <SideCard>
+    <About />
+  </SideCard>
 </main>
 `;
