@@ -1,6 +1,7 @@
 import React from 'react'
-import { LeftMenu, SideCard, ICON_TYPES } from '@core/ui-kit'
-import { About } from '@core/public-components'
+import { Switch, Route } from 'react-router-dom'
+import { LeftMenu, ICON_TYPES } from '@core/ui-kit'
+import { About, Contact, Skills, Works, Blog } from '@core/public-components'
 
 export const Home = () => {
   const navigation = [
@@ -14,9 +15,13 @@ export const Home = () => {
   return (
     <main>
       <LeftMenu navigationItems={navigation} />
-      <SideCard>
-        <About />
-      </SideCard>
+      <Switch>
+        <Route path="/home" component={About} exact />
+        <Route path="/home/contact" component={Contact} />
+        <Route path="/home/blog" component={Blog} />
+        <Route path="/home/works" component={Works} />
+        <Route path="/home/skills" component={Skills} />
+      </Switch>
     </main>
   )
 }

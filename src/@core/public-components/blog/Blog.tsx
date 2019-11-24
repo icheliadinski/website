@@ -1,10 +1,10 @@
 import React from 'react'
 import { SideCard } from '@core/ui-kit'
 
-export const About: React.FC = () => {
+export const Blog = () => {
   return (
     <SideCard>
-      <article>About Me</article>
+      <article>My blog</article>
     </SideCard>
   )
 }
