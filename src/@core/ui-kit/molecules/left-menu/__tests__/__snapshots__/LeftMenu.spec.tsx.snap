@@ -9,7 +9,39 @@ exports[`[LeftMenu] renders successfully 1`] = `
     role="button"
   />
   <ProfileMenu
-    icons={Array []}
+    navigationItems={Array []}
+  />
+  <span
+    className="item download"
+  >
+    <Icon
+      type="download"
+    />
+  </span>
+</aside>
+`;
+
+exports[`[LeftMenu] when has navigation items renders successfully 1`] = `
+<aside
+  className="menu"
+>
+  <span
+    className="hamburger item"
+    role="button"
+  />
+  <ProfileMenu
+    navigationItems={
+      Array [
+        Object {
+          "icon": "phone",
+          "path": "",
+        },
+        Object {
+          "icon": "user",
+          "path": "user",
+        },
+      ]
+    }
   />
   <span
     className="item download"

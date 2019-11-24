@@ -6,56 +6,33 @@ exports[`[ProfileMenu] renders successfully 1`] = `
 />
 `;
 
-exports[`[ProfileMenu] when icons provided renders successfully 1`] = `
+exports[`[ProfileMenu] when has navigation items renders successfully 1`] = `
 <ul
   className="profile"
 >
-  <li
+  <NavLink
+    activeClassName="active"
     className="item"
+    exact={true}
     key="user"
-    onClick={[Function]}
     role="button"
+    to="/home/"
   >
     <Icon
       type="user"
     />
-  </li>
-  <li
+  </NavLink>
+  <NavLink
+    activeClassName="active"
     className="item"
+    exact={true}
     key="phone"
-    onClick={[Function]}
     role="button"
+    to="/home/phone"
   >
     <Icon
       type="phone"
     />
-  </li>
-</ul>
-`;
-
-exports[`[ProfileMenu] when icons provided renders successfully with active item 1`] = `
-<ul
-  className="profile"
->
-  <li
-    className="item active"
-    key="user"
-    onClick={[Function]}
-    role="button"
-  >
-    <Icon
-      type="user"
-    />
-  </li>
-  <li
-    className="item"
-    key="phone"
-    onClick={[Function]}
-    role="button"
-  >
-    <Icon
-      type="phone"
-    />
-  </li>
+  </NavLink>
 </ul>
 `;
