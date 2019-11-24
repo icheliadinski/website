@@ -28,8 +28,28 @@ exports[`[Home] renders successfully 1`] = `
       ]
     }
   />
-  <SideCard>
-    <About />
-  </SideCard>
+  <Switch>
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/home"
+    />
+    <Route
+      component={[Function]}
+      path="/home/contact"
+    />
+    <Route
+      component={[Function]}
+      path="/home/blog"
+    />
+    <Route
+      component={[Function]}
+      path="/home/works"
+    />
+    <Route
+      component={[Function]}
+      path="/home/skills"
+    />
+  </Switch>
 </main>
 `;

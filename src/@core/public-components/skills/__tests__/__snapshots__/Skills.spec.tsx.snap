@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[About] renders successfully 1`] = `
+exports[`[Skills] renders successfully 1`] = `
 <SideCard>
   <article>
-    About Me
+    My Skills
   </article>
 </SideCard>
 `;
