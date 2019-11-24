@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import { LeftMenu, ICON_TYPES } from '@core/ui-kit'
+import { LeftMenu, SideCard, ICON_TYPES } from '@core/ui-kit'
+import { About } from '@core/public-components'
+import styles from './Home.module.scss'
 
 export const Home = () => {
   const [activeMenuItem, setActiveMenuItem] = useState<ICON_TYPES>(
@@ -21,6 +23,9 @@ export const Home = () => {
         activeItem={activeMenuItem}
         onItemClick={handleLeftMenuClick}
       />
+      <SideCard>
+        <About />
+      </SideCard>
     </main>
   )
 }
