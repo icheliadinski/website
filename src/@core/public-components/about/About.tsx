@@ -4,7 +4,9 @@ import { SideCard } from '@core/ui-kit'
 export const About: React.FC = () => {
   return (
     <SideCard>
-      <article>About Me</article>
+      <article>
+        <h5>About</h5>
+      </article>
     </SideCard>
   )
 }

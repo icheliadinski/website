@@ -3,7 +3,9 @@
 exports[`[About] renders successfully 1`] = `
 <SideCard>
   <article>
-    About Me
+    <h5>
+      About
+    </h5>
   </article>
 </SideCard>
 `;
