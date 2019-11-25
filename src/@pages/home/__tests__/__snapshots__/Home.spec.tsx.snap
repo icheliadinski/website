@@ -8,22 +8,27 @@ exports[`[Home] renders successfully 1`] = `
         Object {
           "icon": "user",
           "path": "",
+          "title": "Home",
         },
         Object {
           "icon": "phone",
           "path": "contact",
+          "title": "Contact",
         },
         Object {
           "icon": "edit",
           "path": "blog",
+          "title": "Blog",
         },
         Object {
           "icon": "monitor",
           "path": "works",
+          "title": "Works",
         },
         Object {
           "icon": "glasses",
           "path": "skills",
+          "title": "Skills",
         },
       ]
     }

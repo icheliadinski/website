@@ -7,12 +7,14 @@ exports[`[LeftMenu] renders successfully 1`] = `
   <span
     className="hamburger item"
     role="button"
+    title="menu"
   />
   <ProfileMenu
     navigationItems={Array []}
   />
   <span
     className="item download"
+    title="Download"
   >
     <Icon
       type="download"
@@ -28,6 +30,7 @@ exports[`[LeftMenu] when has navigation items renders successfully 1`] = `
   <span
     className="hamburger item"
     role="button"
+    title="menu"
   />
   <ProfileMenu
     navigationItems={
@@ -45,6 +48,7 @@ exports[`[LeftMenu] when has navigation items renders successfully 1`] = `
   />
   <span
     className="item download"
+    title="Download"
   >
     <Icon
       type="download"
