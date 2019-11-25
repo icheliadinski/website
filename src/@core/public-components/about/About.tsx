@@ -13,7 +13,7 @@ export const About: React.FC = () => {
           <span>{age} years</span>
           <span>New York</span>
         </h2>
-        <h3 className={styles.info}>&lt;Software Engineer&gt;</h3>
+        <h3 className={styles.info}>Software Engineer</h3>
         <p>
           JavaScript/GoLang Developer with a Bachelor’s Degree in Computer
           Science in Information Technology from Belarusian State University of

@@ -24,7 +24,7 @@ exports[`[About] renders successfully 1`] = `
     <h3
       className="info"
     >
-      &lt;Software Engineer&gt;
+      Software Engineer
     </h3>
     <p>
       JavaScript/GoLang Developer with a Bachelor’s Degree in Computer Science in Information Technology from Belarusian State University of Informatics and Radioelectronics and 5+ years of software development experience.
