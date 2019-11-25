@@ -18,8 +18,8 @@ describe('[ProfileMenu]', () => {
     beforeEach(() => {
       wrapper.setProps({
         navigationItems: [
-          { path: '', icon: ICON_TYPES.USER_ICON },
-          { path: 'phone', icon: ICON_TYPES.PHONE_ICON },
+          { path: '', icon: ICON_TYPES.USER },
+          { path: 'phone', icon: ICON_TYPES.PHONE },
         ],
       })
     })

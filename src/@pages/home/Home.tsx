@@ -5,11 +5,11 @@ import { About, Contact, Skills, Works, Blog } from '@core/public-components'
 
 export const Home = () => {
   const navigation = [
-    { path: '', icon: ICON_TYPES.USER_ICON, title: 'Home' },
-    { path: 'contact', icon: ICON_TYPES.PHONE_ICON, title: 'Contact' },
-    { path: 'blog', icon: ICON_TYPES.EDIT_ICON, title: 'Blog' },
-    { path: 'works', icon: ICON_TYPES.MONITOR_ICON, title: 'Works' },
-    { path: 'skills', icon: ICON_TYPES.GLASSES_ICON, title: 'Skills' },
+    { path: '', icon: ICON_TYPES.USER, title: 'Home' },
+    { path: 'contact', icon: ICON_TYPES.PHONE, title: 'Contact' },
+    { path: 'blog', icon: ICON_TYPES.EDIT, title: 'Blog' },
+    { path: 'works', icon: ICON_TYPES.WORK, title: 'Works' },
+    { path: 'skills', icon: ICON_TYPES.GLASSES, title: 'Skills' },
   ]
 
   return (

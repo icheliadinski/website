@@ -35,3 +35,87 @@ exports[`[Icon] renders successfully with user icon 1`] = `
   className="icon icon-user"
 />
 `;
+
+exports[`[Icon] renders successfully with user icon 2`] = `
+<span
+  className="icon icon-user"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 3`] = `
+<span
+  className="icon icon-work"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 4`] = `
+<span
+  className="icon icon-inclined-rocket"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 5`] = `
+<span
+  className="icon icon-database"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 6`] = `
+<span
+  className="icon icon-computer"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 7`] = `
+<span
+  className="icon icon-iteration"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 8`] = `
+<span
+  className="icon icon-envelope"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 9`] = `
+<span
+  className="icon icon-address"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 10`] = `
+<span
+  className="icon icon-speedometer"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 11`] = `
+<span
+  className="icon icon-mortarboard"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 12`] = `
+<span
+  className="icon icon-contract"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 13`] = `
+<span
+  className="icon icon-facebook-logo"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 14`] = `
+<span
+  className="icon icon-github-logo"
+/>
+`;
+
+exports[`[Icon] renders successfully with user icon 15`] = `
+<span
+  className="icon icon-twitter"
+/>
+`;

@@ -5,7 +5,7 @@ import { ProfileMenu } from './ProfileMenu'
 import styles from './LeftMenu.module.scss'
 
 export interface Props {
-  navigationItems?: Array<{ path: string; icon: ICON_TYPES; title: string }>
+  navigationItems?: Array<{ path: string; icon: ICON_TYPES; title?: string }>
 }
 
 export const LeftMenu: React.FC<Props> = ({ navigationItems = [] }) => {
@@ -17,7 +17,7 @@ export const LeftMenu: React.FC<Props> = ({ navigationItems = [] }) => {
       <span className={hamburgerClasses} role="button" title="menu" />
       <ProfileMenu navigationItems={navigationItems} />
       <span className={downloadClasses} title="Download">
-        <Icon type={ICON_TYPES.DOWNLOAD_ICON} />
+        <Icon type={ICON_TYPES.DOWNLOAD} />
       </span>
     </aside>
   )
