@@ -11,7 +11,7 @@ exports[`[About] renders successfully 1`] = `
       about me
     </h1>
     <h2
-      className="subinfo"
+      className="info"
     >
       <span>
         25
@@ -20,10 +20,12 @@ exports[`[About] renders successfully 1`] = `
       <span>
         New York
       </span>
-      <span>
-        Developer
-      </span>
     </h2>
+    <h3
+      className="info"
+    >
+      &lt;Software Engineer&gt;
+    </h3>
     <p>
       JavaScript/GoLang Developer with a Bachelor’s Degree in Computer Science in Information Technology from Belarusian State University of Informatics and Radioelectronics and 5+ years of software development experience.
     </p>

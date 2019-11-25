@@ -9,11 +9,11 @@ export const About: React.FC = () => {
     <SideCard>
       <article className={styles.article}>
         <h1 className={styles.header}>about me</h1>
-        <h2 className={styles.subinfo}>
+        <h2 className={styles.info}>
           <span>{age} years</span>
           <span>New York</span>
-          <span>Developer</span>
         </h2>
+        <h3 className={styles.info}>&lt;Software Engineer&gt;</h3>
         <p>
           JavaScript/GoLang Developer with a Bachelor’s Degree in Computer
           Science in Information Technology from Belarusian State University of
