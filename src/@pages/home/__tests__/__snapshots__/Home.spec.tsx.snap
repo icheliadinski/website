@@ -21,7 +21,7 @@ exports[`[Home] renders successfully 1`] = `
           "title": "Blog",
         },
         Object {
-          "icon": "monitor",
+          "icon": "work",
           "path": "works",
           "title": "Works",
         },
