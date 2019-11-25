@@ -22,25 +22,23 @@
 
   p {
     font-size: 0.9rem;
-    line-height: 1.73;
+    line-height: 1.5rem;
     text-align: justify;
   }
 }
 
-.subinfo {
+.info {
+  color: var(--c-primary);
   font-size: 1rem;
+  font-style: italic;
+  line-height: 1.75rem;
   margin: 0;
   text-align: center;
 
-  span {
-    color: var(--c-primary);
-    font-style: italic;
-
-    &:not(:last-child)::after {
-      color: var(--c-dark-grey);
-      content: "/";
-      margin: 0 0.3rem;
-    }
+  span:not(:last-child)::after {
+    color: var(--c-dark-grey);
+    content: "/";
+    margin: 0 0.3rem;
   }
 }
 
