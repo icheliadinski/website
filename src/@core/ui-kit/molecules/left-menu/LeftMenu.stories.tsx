@@ -6,8 +6,8 @@ import { LeftMenu } from './LeftMenu'
 export default { title: 'Left Menu', component: LeftMenu }
 
 const navigation = [
-  { icon: ICON_TYPES.USER_ICON, path: '' },
-  { icon: ICON_TYPES.PHONE_ICON, path: 'phone' },
+  { icon: ICON_TYPES.USER_ICON, path: '', title: 'User' },
+  { icon: ICON_TYPES.PHONE_ICON, path: 'phone', title: 'Contact' },
 ]
 
 export const Default = () => <LeftMenu navigationItems={[]} />
