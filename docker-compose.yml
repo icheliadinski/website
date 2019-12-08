@@ -8,6 +8,8 @@ services:
     volumes:
       - ./config/nginx.conf:/etc/nginx/conf.d/default.conf
       - ./build/:/app/
+      - /etc/ssl/private/personal.key:/etc/ssl/private/personal.key
+      - /etc/ssl/certs/personal.crt:/etc/ssl/certs/personal.crt
     ports:
       - "80:80"
       - "443:443"
