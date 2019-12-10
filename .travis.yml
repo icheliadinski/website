@@ -14,4 +14,4 @@ script:
   - yarn run test:prod
 after_script:
   - COVERALLS_REPO_TOKEN=$coveralls_repo_token yarn run coveralls
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+  - CC_TEST_REPORTER_ID=$codeclimate_repo_token ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
