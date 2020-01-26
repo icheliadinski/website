@@ -22,10 +22,6 @@ export const About: React.FC = () => {
         </p>
         <p>Analytical thinker who can solve complicated problems quickly.</p>
       </article>
-      <article className={styles.article}>
-        <h2 className={styles.subheader}>my services</h2>
-        <p>TBD</p>
-      </article>
     </SideCard>
   )
 }
